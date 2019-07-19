@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: config.jbehaverun
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.001 sec - in config.jbehaverun
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.399 sec - in config.jbehaverun

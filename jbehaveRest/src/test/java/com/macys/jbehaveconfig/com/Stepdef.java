@@ -1,4 +1,4 @@
-package config;
+package com.macys.jbehaveconfig.com;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -53,7 +53,7 @@ Map<String,String> data = new HashMap<String,String>();
 	*/
 	
 	RequestSpecification res = RestAssured.given();
-	int code=200;
+	int code=201;
 	int e_statuscode;
 	
 	
@@ -75,7 +75,7 @@ Map<String,String> data = new HashMap<String,String>();
 		e_statuscode=res.given().contentType("application/json").body(data).when().post("http://localhost:3000/employees").getStatusCode();
 		
 		
-		//e_statuscode=res.given().when().delete("http://localhost:3000/employees/11").getStatusCode();
+		//e_statuscode=res.given().when().delete("http://localhost:3000/employees/7").getStatusCode();
 	  // PENDING
 	}
 
