@@ -1,0 +1,672 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Sample.story</path>
+        <description>
+          <descriptionAsString>Sample story</descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo>communicate effectively to the business some functionality</inOrderTo>
+          <asA>development team</asA>
+          <iWantTo>use Behaviour-Driven Development</iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>Another scenario exploring different combination of events</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|uri|date|
+|http://localhost:3000/employees|18/7/2019|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>uri</string>
+                <string>date</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>uri</string>
+                    <string>http://localhost:3000/employees</string>
+                  </entry>
+                  <entry>
+                    <string>date</string>
+                    <string>18/7/2019</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given a precondition [uri]</string>
+              <string>When a negative event occurs</string>
+              <string>Then a the outcome should be captured [date]</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>Sample.story</name>
+      </story>
+      <localizedNarrative>In order to communicate effectively to the business some functionality
+As a development team
+I want to use Behaviour-Driven Development</localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>Another scenario exploring different combination of events</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|uri|date|
+|http://localhost:3000/employees|18/7/2019|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>uri</string>
+                <string>date</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>uri</string>
+                    <string>http://localhost:3000/employees</string>
+                  </entry>
+                  <entry>
+                    <string>date</string>
+                    <string>18/7/2019</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given a precondition [uri]</string>
+              <string>When a negative event occurs</string>
+              <string>Then a the outcome should be captured [date]</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Sample.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>uri</string>
+                  <string>http://localhost:3000/employees</string>
+                </entry>
+                <entry>
+                  <string>date</string>
+                  <string>18/7/2019</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given a precondition [uri]</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given a precondition [uri]</parametrisedStep>
+                    <durationInMillis>4625</durationInMillis>
+                    <start>1563448974613</start>
+                    <end>1563448979238</end>
+                  </successful>
+                  <successful>
+                    <step>When a negative event occurs</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When a negative event occurs</parametrisedStep>
+                    <durationInMillis>196</durationInMillis>
+                    <start>1563448979242</start>
+                    <end>1563448979438</end>
+                  </successful>
+                  <successful>
+                    <step>Then a the outcome should be captured [date]</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Then a the outcome should be captured [date]</parametrisedStep>
+                    <durationInMillis>6</durationInMillis>
+                    <start>1563448979442</start>
+                    <end>1563448979448</end>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>Another scenario exploring different combination of events</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|uri|date|
+|http://localhost:3000/employees|18/7/2019|</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>uri</string>
+                    <string>date</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>uri</string>
+                        <string>http://localhost:3000/employees</string>
+                      </entry>
+                      <entry>
+                        <string>date</string>
+                        <string>18/7/2019</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given a precondition [uri]</string>
+                  <string>When a negative event occurs</string>
+                  <string>Then a the outcome should be captured [date]</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>5193</durationInMillis>
+        <start>1563448974472</start>
+        <end>1563448979665</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>Another scenario exploring different combination of events</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>|uri|date|
+|http://localhost:3000/employees|18/7/2019|</tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string>uri</string>
+            <string>date</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>uri</string>
+                <string>http://localhost:3000/employees</string>
+              </entry>
+              <entry>
+                <string>date</string>
+                <string>18/7/2019</string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given a precondition [uri]</string>
+          <string>When a negative event occurs</string>
+          <string>Then a the outcome should be captured [date]</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Sample.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>uri</string>
+              <string>http://localhost:3000/employees</string>
+            </entry>
+            <entry>
+              <string>date</string>
+              <string>18/7/2019</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given a precondition [uri]</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given a precondition [uri]</parametrisedStep>
+                <durationInMillis>4625</durationInMillis>
+                <start>1563448974613</start>
+                <end>1563448979238</end>
+              </successful>
+              <successful>
+                <step>When a negative event occurs</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When a negative event occurs</parametrisedStep>
+                <durationInMillis>196</durationInMillis>
+                <start>1563448979242</start>
+                <end>1563448979438</end>
+              </successful>
+              <successful>
+                <step>Then a the outcome should be captured [date]</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Then a the outcome should be captured [date]</parametrisedStep>
+                <durationInMillis>6</durationInMillis>
+                <start>1563448979442</start>
+                <end>1563448979448</end>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>Another scenario exploring different combination of events</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|uri|date|
+|http://localhost:3000/employees|18/7/2019|</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>uri</string>
+                <string>date</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>uri</string>
+                    <string>http://localhost:3000/employees</string>
+                  </entry>
+                  <entry>
+                    <string>date</string>
+                    <string>18/7/2019</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given a precondition [uri]</string>
+              <string>When a negative event occurs</string>
+              <string>Then a the outcome should be captured [date]</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

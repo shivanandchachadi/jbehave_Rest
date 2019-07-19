@@ -1,0 +1,23 @@
+<story path="stories/Sample.story" title="Sample story">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">communicate effectively to the business some functionality</inOrderTo>
+  <asA keyword="As a">development team</asA>
+  <iWantTo keyword="I want to">use Behaviour-Driven Development</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Another scenario exploring different combination of events">
+<examples keyword="Examples:">
+<step>Given a precondition [uri]</step>
+<step>When a negative event occurs</step>
+<step>Then a the outcome should be captured [date]</step>
+<parameters>
+<names><name>uri</name><name>date</name></names>
+<values><value>http://localhost:3000/employees</value><value>18/7/2019</value></values>
+</parameters>
+
+<example keyword="Example:">{uri=http://localhost:3000/employees, date=18/7/2019}</example>
+<step outcome="successful">Given a precondition [uri]</step>
+<step outcome="successful">When a negative event occurs</step>
+<step outcome="successful">Then a the outcome should be captured [date]</step>
+</examples>
+</scenario>
+</story>

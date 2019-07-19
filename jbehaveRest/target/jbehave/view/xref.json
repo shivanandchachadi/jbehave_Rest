@@ -1,0 +1,764 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Sample.story",
+        "description": {
+          "descriptionAsString": "Sample story"
+        },
+        "narrative": {
+          "inOrderTo": "communicate effectively to the business some functionality",
+          "asA": "development team",
+          "iWantTo": "use Behaviour-Driven Development",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Another scenario exploring different combination of events",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|uri|date|\n|http://localhost:3000/employees|18/7/2019|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "uri",
+                "date"
+              ],
+              "data": [
+                [
+                  [
+                    "uri",
+                    "http://localhost:3000/employees"
+                  ],
+                  [
+                    "date",
+                    "18/7/2019"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given a precondition [uri]",
+              "When a negative event occurs",
+              "Then a the outcome should be captured [date]"
+            ]
+          }
+        ],
+        "name": "Sample.story"
+      },
+      "localizedNarrative": "In order to communicate effectively to the business some functionality\nAs a development team\nI want to use Behaviour-Driven Development",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Another scenario exploring different combination of events",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|uri|date|\n|http://localhost:3000/employees|18/7/2019|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "uri",
+                "date"
+              ],
+              "data": [
+                [
+                  [
+                    "uri",
+                    "http://localhost:3000/employees"
+                  ],
+                  [
+                    "date",
+                    "18/7/2019"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given a precondition [uri]",
+              "When a negative event occurs",
+              "Then a the outcome should be captured [date]"
+            ]
+          },
+          "storyPath": "stories/Sample.story",
+          "allowed": true,
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "uri",
+                  "http://localhost:3000/employees"
+                ],
+                [
+                  "date",
+                  "18/7/2019"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [],
+                "results": [
+                  {
+                    "step": "Given a precondition [uri]",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Given a precondition [uri]",
+                    "durationInMillis": 4625,
+                    "start": 1563448974613,
+                    "end": 1563448979238
+                  },
+                  {
+                    "step": "When a negative event occurs",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "When a negative event occurs",
+                    "durationInMillis": 196,
+                    "start": 1563448979242,
+                    "end": 1563448979438
+                  },
+                  {
+                    "step": "Then a the outcome should be captured [date]",
+                    "type": "SUCCESSFUL",
+                    "parametrisedStep": "Then a the outcome should be captured [date]",
+                    "durationInMillis": 6,
+                    "start": 1563448979442,
+                    "end": 1563448979448
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "Another scenario exploring different combination of events",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "headerSeparator": "|",
+                    "valueSeparator": "|",
+                    "ignorableSeparator": "|--",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ],
+                    "propertiesAsString": "",
+                    "namedParameters": [],
+                    "trim": true
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|uri|date|\n|http://localhost:3000/employees|18/7/2019|",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "uri",
+                    "date"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "uri",
+                        "http://localhost:3000/employees"
+                      ],
+                      [
+                        "date",
+                        "18/7/2019"
+                      ]
+                    ]
+                  ],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                },
+                "steps": [
+                  "Given a precondition [uri]",
+                  "When a negative event occurs",
+                  "Then a the outcome should be captured [date]"
+                ]
+              }
+            }
+          ],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 5193,
+        "start": 1563448974472,
+        "end": 1563448979665
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Another scenario exploring different combination of events",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "|uri|date|\n|http://localhost:3000/employees|18/7/2019|",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [
+            "uri",
+            "date"
+          ],
+          "data": [
+            [
+              [
+                "uri",
+                "http://localhost:3000/employees"
+              ],
+              [
+                "date",
+                "18/7/2019"
+              ]
+            ]
+          ],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given a precondition [uri]",
+          "When a negative event occurs",
+          "Then a the outcome should be captured [date]"
+        ]
+      },
+      "storyPath": "stories/Sample.story",
+      "allowed": true,
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "uri",
+              "http://localhost:3000/employees"
+            ],
+            [
+              "date",
+              "18/7/2019"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [],
+            "results": [
+              {
+                "step": "Given a precondition [uri]",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Given a precondition [uri]",
+                "durationInMillis": 4625,
+                "start": 1563448974613,
+                "end": 1563448979238
+              },
+              {
+                "step": "When a negative event occurs",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "When a negative event occurs",
+                "durationInMillis": 196,
+                "start": 1563448979242,
+                "end": 1563448979438
+              },
+              {
+                "step": "Then a the outcome should be captured [date]",
+                "type": "SUCCESSFUL",
+                "parametrisedStep": "Then a the outcome should be captured [date]",
+                "durationInMillis": 6,
+                "start": 1563448979442,
+                "end": 1563448979448
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "Another scenario exploring different combination of events",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|uri|date|\n|http://localhost:3000/employees|18/7/2019|",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "uri",
+                "date"
+              ],
+              "data": [
+                [
+                  [
+                    "uri",
+                    "http://localhost:3000/employees"
+                  ],
+                  [
+                    "date",
+                    "18/7/2019"
+                  ]
+                ]
+              ],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given a precondition [uri]",
+              "When a negative event occurs",
+              "Then a the outcome should be captured [date]"
+            ]
+          }
+        }
+      ],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}
