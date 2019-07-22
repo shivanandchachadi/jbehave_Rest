@@ -9,7 +9,7 @@ public class jbehaverun extends SerenityStories {
 	
 	
 	public List<String> storyPaths() {
-        return Arrays.asList("./stories/SSCS71.story");
+        return Arrays.asList("./stories/SSCS135.story");
     }
 
 }

@@ -8,8 +8,9 @@ import java.sql.Statement;
 
 public class DatabaseConnection {
 
-	public int bdconnection(int result,String query) throws SQLException
+	public int bdconnection(String query) throws SQLException
 	{
+		int result=0;
 		Connection con = null;
 		try
 		{
